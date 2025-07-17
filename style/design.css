@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(0deg, rgba(78, 71, 255, 0.01) 0%, rgba(78, 71, 255, 0.01) 100%);
+  background-image: url(/ph-assignment1/Assets/Hero-bg.png);
+  width: 1440px;
+  height: 698px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 158px;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar */
+.navbar {
+  width: 1140px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #4E47FF;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 51px;
+}
+
+/* Buttons */
+.button {
+  height: 48px;
+  padding: 12px 36px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #4E47FF;
+  color: white;
+}
+
+.nav-buttons,
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero-section {
+  width: 905px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #252432;
+  word-wrap: break-word;
+}
