@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {
+.header-body {
   font-family: 'Inter', sans-serif;
   background: linear-gradient(0deg, rgba(78, 71, 255, 0.01) 0%, rgba(78, 71, 255, 0.01) 100%);
   background-image: url(/ph-assignment1/Assets/Hero-bg.png);
@@ -86,3 +86,69 @@ body {
   color: #252432;
   word-wrap: break-word;
 }
+
+
+/* preview style  */
+.preview {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.preview-section {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.preview-text {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.preview-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin: 0;
+}
+
+.preview-description {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  line-height: 30px;
+  margin: 0;
+}
+
+.preview-button {
+  height: 48px;
+  padding: 12px 36px;
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.preview-image {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
