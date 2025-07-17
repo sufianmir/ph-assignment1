@@ -218,3 +218,132 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* testimonial card style */
+.testimon {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Inter', sans-serif;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-wrapper {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.testimonial-title {
+  align-self: stretch;
+  text-align: center;
+  color: #252432;
+  font-size: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.testimonial-row {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  flex: 1 1 0;
+  min-width: 240px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.50);
+  border-radius: 14px;
+  border: 1px solid #F2EDED;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.star-row {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+.star::before {
+  content: '';
+  position: absolute;
+  width: 16.67px;
+  height: 15.85px;
+  top: 1.67px;
+  left: 1.67px;
+  background-color: #FFB805;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.testimonial-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1E1E1E;
+  line-height: 28.8px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1E1E1E;
+  line-height: 22.4px;
+}
+
+.reviewer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.reviewer-image {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.reviewer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.reviewer-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  line-height: 22.4px;
+}
+
+.review-date {
+  font-size: 16px;
+  font-weight: 400;
+  color: #B3B3B3;
+  line-height: 22.4px;
+}
