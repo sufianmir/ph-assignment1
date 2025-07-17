@@ -57,6 +57,11 @@
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: green;
+}
+
+
 .primary {
   background-color: #4E47FF;
   color: white;
@@ -143,6 +148,9 @@
   align-items: center;
   justify-content: center;
   width: fit-content;
+}
+.preview-button:hover {
+  background-color: green;
 }
 
 .preview-image {
@@ -404,7 +412,7 @@
 }
 
 .cta-button:hover {
-  background-color: #3b37cc;
+  background-color: green;
 }
 
 .focus-image {
@@ -492,6 +500,9 @@
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+}
+.submit-button:hover {
+  background-color: green;
 }
 
 /* footer style  */
